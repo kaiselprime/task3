@@ -1,13 +1,30 @@
-.header-top{
-    display:flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.bg{
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.header-top {
+    display: flex;
+    width: 100%;
+}
+
+.bg {
     height: 400px;
     background: radial-gradient(40% 50%, #FAECD5, #e7b084);
+    width: 100%;
 }
-.header-text{
+
+.header-text {
     flex-grow: 1;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(255, 185, 22);
@@ -16,43 +33,57 @@
     font-family: airport;
     font-size: xx-large;
 }
-.header-logo img{
+
+.header-logo img {
     width: 15vw;
     height: auto;
 }
-.line{
-    display:flex;
+
+.line {
+    display: flex;
+    width: 100%;
     max-width: 100%;
-    width: 100%; 
+    gap: 20px;
+    padding: 0 20px;
 }
-.line-content{
-    margin: 0 10px;
-    padding: 10px;
+
+.line-content {
+    flex: 1;
+    padding: 20px;
     border: 2px #ba6b0a solid;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgb(139, 99, 74);
     background-color: #f5bc8a;
     font-family: nothehe;
+    min-width: 0;
 }
-.line-nav ul{
+
+.line-nav {
+    flex: 0 0 250px;
+}
+
+.line-nav ul {
     list-style: none;
-    margin: 0px;
-    padding: 0px;
 }
-.line-nav ul li{
-    background: linear-gradient(75deg, #ffe7c0, #f5bc8a );
+
+.line-nav ul li {
+    background: linear-gradient(75deg, #ffe7c0, #f5bc8a);
     border: 1px solid #ba6b0a;
     border-radius: 3px;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     font-family: nothehe;
 }
-.footer{
+
+.footer {
     margin-top: 20px;
     font-family: nothehe;
     opacity: 50%;
+    width: 100%;
+    padding: 0 20px;
 }
+
 @font-face {
     font-family: airport;
     src: url(../font/Airport.ttf);
@@ -61,5 +92,4 @@
 @font-face {
     font-family: nothehe;
     src: url(../font/OKScU8ig.ttf);
-
 }
