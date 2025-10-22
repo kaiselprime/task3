@@ -1,0 +1,14 @@
+@media screen and (max-width:600px){
+    .header-top{
+        display: block;
+    }
+    .header-top img{
+        display:none;
+    }
+    .line{
+        display: block;
+    }
+    .header-text{
+        transform:rotate(0deg)
+    }
+}
