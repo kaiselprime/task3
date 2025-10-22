@@ -22,6 +22,8 @@
 }
 .line{
     display:flex;
+    max-width: 100%;
+    width: 100%; 
 }
 .line-content{
     margin: 0 10px;
@@ -59,4 +61,5 @@
 @font-face {
     font-family: nothehe;
     src: url(../font/OKScU8ig.ttf);
+
 }
